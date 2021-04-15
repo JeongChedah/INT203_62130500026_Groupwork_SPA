@@ -3,6 +3,8 @@ import App from './App.vue'
 import './assets/tailwind.css'
 import router from './router'
 import BackBuddy from './components/BackBuddy.vue'
+import MovieCard from './components/MovieCard.vue'
 const app = createApp(App)
 app.component('back-buddy', BackBuddy)
+app.component('movie-card', MovieCard)
 app.use(router).mount('#app')

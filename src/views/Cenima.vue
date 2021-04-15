@@ -7,3 +7,5 @@
     </div>
   </body-card>
 </template>
+<script>
+</script>
