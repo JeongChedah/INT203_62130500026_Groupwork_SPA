@@ -1,4 +1,5 @@
 <template>
+  <movie-card class="w-full">
         <div style="margin-left: 40px; margin-right: 40px;">
             <img src="../assets/Cat.png" alt="" style="margin-top: 20px; margin-left: auto; margin-right: auto;">
             <hr>
@@ -16,5 +17,6 @@
               <div><img src="../assets/movies/Violet.png" alt="Violet"></div>
               <div><img src="../assets/movies/yellow.png" alt="Yellow"></div>
           </div>   
-        </div>    
+        </div> 
+      </movie-card>   
 </template>

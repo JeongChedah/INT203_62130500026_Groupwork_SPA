@@ -1,7 +1,7 @@
 <template>
     <movie-card class="w-screen">
-        <div class="flex flex-col justify-center" style="margin-top: 20px;">
-            <h1 class="font-extrabold text-3xl tracking-widest">Movies List</h1>
+        <div class="flex flex-col justify-center items-center" style="margin-top: 20px;">
+            <h1 class="text-white font-extrabold text-3xl tracking-widest">Movies List</h1>
         <ul>
             <movie-list v-for="movie in movies"
             :key="movie.id"
