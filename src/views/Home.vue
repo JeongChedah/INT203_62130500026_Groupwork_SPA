@@ -1,5 +1,4 @@
 <template>
-    <div></div>
         <div style="margin-left: 40px; margin-right: 40px;">
             <img src="../assets/Cat.png" alt="" style="margin-top: 20px; margin-left: auto; margin-right: auto;">
             <hr>
@@ -8,7 +7,7 @@
               <div><img src="../assets/movies/Conan.png" alt="Dectitive Conan"></div>
               <div><img src="../assets/movies/Courier.png" alt="Courier"></div>
               <div><img src="../assets/movies/Doramon.png" alt="Doramon"></div>
-              <div><img src="../assets/movies/Kong.jpg" alt="God VS Kong"></div>
+              <div><img src="../assets/movies/kong.png" alt="God VS Kong"></div>
               <div><img src="../assets/movies/Mortal.png" alt="MortalKombat"></div>
               <div><img src="../assets/movies/Nobody.png" alt="Nobody"></div>
               <div><img src="../assets/movies/raya.png" alt="Raya"></div>
