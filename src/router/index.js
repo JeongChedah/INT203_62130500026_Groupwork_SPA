@@ -1,3 +1,4 @@
+//create router
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Movies from '../views/Movies.vue'
