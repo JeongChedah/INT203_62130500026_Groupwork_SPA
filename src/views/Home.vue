@@ -16,7 +16,9 @@
               <div><img src="../assets/movies/Seobok.png" alt="Seobok"></div>
               <div><img src="../assets/movies/Violet.png" alt="Violet"></div>
               <div><img src="../assets/movies/yellow.png" alt="Yellow"></div>
-          </div>   
+          </div>
+          <br>   
+          <hr>
         </div> 
       </movie-card>   
 </template>
