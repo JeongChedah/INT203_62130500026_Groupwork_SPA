@@ -38,8 +38,7 @@
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 7px;
-  
-  
+   
 }
 
 </style>
