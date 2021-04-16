@@ -13,17 +13,17 @@
               <div><img src="../assets/movies/Mortal.png" alt="MortalKombat"></div>
               <div><img src="../assets/movies/Nobody.png" alt="Nobody"></div>
               <div><img src="../assets/movies/raya.png" alt="Raya"></div>
-              <div><img src="../assets/movies/redd.png" alt="Redd"></div>
+              <div><img src="../assets/movies/maurit.png" alt="Redd"></div>
               <div><img src="../assets/movies/Seobok.png" alt="Seobok"></div>
               <div><img src="../assets/movies/Violet.png" alt="Violet"></div>
-              <div><img src="../assets/movies/yellow.png" alt="Yellow"></div>
+              <div><img src="../assets/movies/battle.png" alt="Yellow"></div>
           </div>
           <br>   
           <hr>
         </div>
       </template>
       <template v-slot:wallimg>
-        <img src="../assets/bgbg.jpg">
+        <img src="../assets/bgbg.jpg" class="h-full w-full">
     </template>
       </movie-card>   
 </template>
