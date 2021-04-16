@@ -23,7 +23,7 @@
         </div>
       </template>
       <template v-slot:wallimg>
-        <img src="../assets/background.jpg">
+        <img src="../assets/bgbg.jpg">
     </template>
       </movie-card>   
 </template>
