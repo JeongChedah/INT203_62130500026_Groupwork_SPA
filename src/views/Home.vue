@@ -1,5 +1,6 @@
 <template>
-  <movie-card class="w-full">
+  <movie-card>
+    <template v-slot:text>
         <div style="margin-left: 40px; margin-right: 40px;">
             <img src="../assets/Cat.png" alt="" style="margin-top: 20px; margin-left: auto; margin-right: auto;">
             <hr>
@@ -19,6 +20,10 @@
           </div>
           <br>   
           <hr>
-        </div> 
+        </div>
+      </template>
+      <template v-slot:wallimg>
+        <img src="../assets/background.jpg">
+    </template>
       </movie-card>   
 </template>
