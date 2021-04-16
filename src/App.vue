@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-800  h-20">
+  <div id="nav" class=" bg-gradient-to-r from-purple-400 via-pink-500 to-red-800  h-20">
     <div class="flex justify-start p-3 ">
       <img class="block h-16 w-auto p-1" src="./assets/f155d4e8e3d9e4392e81c92622306fdb.png">
       <img class="block h-12 w-auto p-1 mt-3 ml-0.1" src="./assets/CHEDAHCINEMA.png">
@@ -19,13 +19,16 @@
 </template>
 
 <style>
+
   #nav a {
     font-weight: 400;
     color: #ffffff;
+    
   }
   #nav :hover{
   color: #000000;
   font-weight: bold;
+  
 }
 
 #nav a.router-link-exact-active {
