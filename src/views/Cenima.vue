@@ -1,7 +1,7 @@
 <template>
   <movie-card>
     <template v-slot:wallimg>
-      <img src="../assets/background.jpg">
+      <img src="../assets/bgbg.jpg">
     </template>
     <template v-slot:text>
         <div class="flex flex-col justify-center items-center">
