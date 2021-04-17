@@ -1,0 +1,112 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Black Widow",
+      "photo": "Black.png",
+      "hour": "175 minutes",
+      "type": "Action",
+      "date": "09 July 2021",
+      "title": "Black Widow will be the first film in Phase 4 that will kick off a new era of legends following the recently concluded Infinity Saga. The film follows the events of Captain America: Civil War... "
+    },
+    {
+      "name": "Detective Conan ",
+      "hour": "110 minutes",
+      "type": "Animation / Crime",
+      "date": "22 April 2021",
+      "title": "Meet the World Sports Games (WSG), which takes place every four years, and this year Tokyo has been chosen to host a huge sporting event...",
+      "photo": "Conan.png",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "The Courier",
+      "photo": "Courier.png",
+      "hour": "111 minutes",
+      "type": "Thriller",
+      "date": "12 April 2021",
+      "title": "A thrilling spy film based on the true story of Graville Wynn (Benedict Cumberbatch), an ordinary British businessman who becomes an indispensable spy on command of the MI unit..."
+    },
+    {
+      "id": 4,
+      "name": "Doraemon, friends forever 2",
+      "photo": "Doramon.png",
+      "hour": "96 minutes",
+      "type": "Animation",
+      "date": "06 April 2021",
+      "title": "When Nobita finds the old teddy bear he used to play in his childhood in the room. Reminded him of the kindest grandmother And decide to invite Doraemon to go back in time to meet with Grandma again..."
+    },
+    {
+      "id": 5,
+      "name": "Godzilla VS Kong",
+      "photo": "kong.png",
+      "hour": "113 minutes",
+      "type": "Action / Science / Thriller",
+      "date": "25 March 2021",
+      "title": "When two legends have to clash in a battle that the world has to write in every age. The fate of the human world hangs in the thread.Cong and its followers embark on a perilous journey to find the real home..."
+    },
+    {
+      "id": 6,
+      "name": "Mortal Combat",
+      "photo": "Mortal.png",
+      "hour": "110 minutes",
+      "type": "Action / Adventure / Fantasy",
+      "date": "08 April 2021",
+      "title": "in this incident, causing Cole to worry about the safety of his family. Following the advice of Jax, one of the members of the special forces, he set out to find Sonya Blade..."
+    },
+    {
+      "id": 7,
+      "name": "Nobody",
+      "photo": "Nobody.png",
+      "hour": "92 minutes",
+      "type": "Action / Thriller",
+      "date": "13 April 2021",
+      "title": "Sometimes the out-of-sight people become the most dangerous. Emmy Award-winning actor Bob Odenkirk (Better Call Saul, The Post, Nebraska) plays Hutch Mansell, an ordinary father and husband. He accepted the situation and never responded..."
+    },
+    {
+      "id": 8,
+      "name": "Raya",
+      "photo": "raya.png",
+      "hour": "114 minutes",
+      "type": "Adventure / Animation / Comedy",
+      "date": "04 March 2021",
+      "title": "Raya and the Last Dragon - Raya and the Last Dragon” will take us on an epic adventure in the fantasy city of Kumantra. A place where humans and dragons have been together peacefully for a long time..."
+    },
+    {
+      "id": 9,
+      "name": "The Mauritanian",
+      "photo": "maurit.png",
+      "hour": "129 minutes",
+      "type": "Drama, Thriller",
+      "date": "2 March 2021",
+      "title": "This is the best chapter in a decade for Jodie Foster, the role that earned her last years Golden Globe award. The Incredible Real Life Experience of Muhamed Duol Salahi who was accused of providing people to pilot a plane crashing..."
+    },
+    {
+      "id": 10,
+      "name": "Immortal human seobok",
+      "photo": "Seobok.png",
+      "hour": "115 minutes",
+      "type": "Action / Science / Thriller",
+      "date": "15 April 2021",
+      "title": "Seo Bok” is an action thriller that will tell the story of the world first human clone, Seo Bok, and the many different forces who want to capture him in order to uncover the secret to eternal life..."
+    },
+    {
+      "id": 11,
+      "name": "The last letter ... To you, who is dear",
+      "photo": "Violet.png",
+      "hour": "140 minutes",
+      "type": "Animation / Life / Fantasy",
+      "date": "25 February 2021",
+      "title": "After the aftermath of a war, a young girl who was used as a tool for war learned to live. With the scars of burns, she goes back to her past to feel the true feelings of the Major..."
+    },
+    {
+      "id": 12,
+      "name": "Battle against the illegal web",
+      "photo": "battle.png",
+      "hour": "116 minutes",
+      "type": "Crime / Life / Thriller",
+      "date": "12 April 2021",
+      "title": "When Ross (Nick Robinson from Jurassic World), an energetic young man, who wants to succeed, creates an online selling website called Silk Road, the site has become a huge drug-selling journey through bitcoins..."
+    }
+  ]
+}
