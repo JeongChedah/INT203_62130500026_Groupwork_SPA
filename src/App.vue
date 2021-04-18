@@ -10,7 +10,8 @@
           <router-link to="/cenima">Cenima</router-link>  
         </div>
         <div class="flex justify-end text-xl pl-14">
-          <router-link to="/login">Login</router-link>
+          <img class="h-full w-full mb-1" src="./assets/person.png">
+          <p class="text-white mb-1">Profile</p>  
         </div>
       </div>
     </div>

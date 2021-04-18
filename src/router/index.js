@@ -3,7 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Movies from '../views/Movies.vue'
 import Cenima from '../views/Cenima.vue'
-import Login from '../views/Login.vue'
 const routes = [{
         path: '/',
         name: 'Home',
@@ -18,11 +17,6 @@ const routes = [{
         path: '/cenima',
         name: 'Cenima',
         component: Cenima
-    },
-    {
-        path: '/login',
-        name: 'Login',
-        component: Login
     }
 ]
 const router = createRouter({

@@ -12,8 +12,8 @@
                     <p class="text-red-800 mt-2 ">Synopsis:</p>
                     <span class="text-black-100">{{movie.title}}</span>
                     <div class="flex mt-10 py-3 px-5">
-                        <a href="#"> <button @click="showMovie(movie)"  class="border rounded-full py-2 px-6 font-bold text-white" style="font-size: large; margin-left: auto; margin-right: auto; background-color: #44C1F0;">EDIT</button></a>
-                        <button @click="deleteMovie(movie.id)" class="border rounded-full py-2 px-6 font-bold text-white" style="font-size: large; margin-left: auto; margin-right: auto; background-color: #FF5757;">DELETE</button>
+                        <a href="#"> <button @click="showMovie(movie)"  class="border rounded-full py-2 px-6 font-bold text-white bg-bluelight" style="font-size: large; margin-left: auto; margin-right: auto;">EDIT</button></a>
+                        <button @click="deleteMovie(movie.id)" class="border rounded-full py-2 px-6 font-bold text-white bg-pinklight " style="font-size: large; margin-left: auto; margin-right: auto;">DELETE</button>
                     </div>
                 </div>
             </div>

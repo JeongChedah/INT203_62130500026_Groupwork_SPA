@@ -3,31 +3,31 @@
     <div class="flex">
         <span class="mr-auto ml-auto text-white text-3xl font-semibold mt-8">Movie Management</span>
     </div>
-    <div class="max-w-full border-2  rounded-md  ml-10 mr-10 mt-8" style="background-color: #FF5313; border-color: #FF5313;">
+    <div class="max-w-full border-2  rounded-md  ml-10 mr-10 mt-8 bg-orange border-orange">
         <form @submit.prevent="submitForm">
             <div class="max-w-full bg-white border-2 border-gray-300 p-5 rounded-md tracking-wide shadow-lg ml-5 mr-5 mt-5 mb-5">
                 <div id="header" class="flex"> 
                     <div id="body" class="flex flex-col ml-5 w-5/12">
-                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest " style="border-left: 4px solid #FF5313 !important;">    
+                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest border-solid border-orange " style="border-left: 4px solid #FF5313 !important;">    
                             <div class="pl-2"> Movie name :</div>
                         </div>
                         <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-t-0 border-r-0 border-l-0 mb-5">
                         <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter Movie name here."
                             v-model="name">
                         </div>
-                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest " style="border-left: 4px solid #FF5313 !important;">
+                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest border-solid border-orange " style="border-left: 4px solid #FF5313 !important;">
                             <div class="pl-2"> Movie length :</div>
                         </div>
                         <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-t-0 border-r-0 border-l-0 mb-5" style="margin-bottom: 10px;">
                             <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter Movie length." v-model="hour">
                         </div>
-                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest " style="border-left: 4px solid #FF5313 !important;">
+                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest border-solid border-orange " style="border-left: 4px solid #FF5313 !important;">
                             <div class="pl-2"> Movie Catagory :</div>
                         </div>
                         <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-t-0 border-r-0 border-l-0 mb-5" style="margin-bottom: 10px;">
                             <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Enter Movie Catagory" v-model="type">
                         </div>
-                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest " style="border-left: 4px solid #FF5313 !important;">
+                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest border-solid border-orange" style="border-left: 4px solid #FF5313 !important;">
                             <div class="pl-2"> Release Date</div>
                         </div>
                         <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-t-0 border-r-0 border-l-0" style="margin-bottom: 10px;">
@@ -35,13 +35,13 @@
                         </div>
                     </div>
                     <div id="body" class="flex flex-col ml-5 w-7/12">
-                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest " style="border-left: 4px solid #FF5313 !important;">
+                        <div class="flex cursor-pointer px-4 py-2 text-lg text-grey-darkest border-solid border-orange" style="border-left: 4px solid #FF5313 !important;">
                             <div class="pl-2">Title</div>
                         </div>
-                        <textarea name="" id="" cols="10" rows="11" placeholder="Enter your title for describe this movie." class="border rounded-md border-red-300 p-2 mt-3 w-full" v-model="title"></textarea>
+                        <textarea name="" id="" cols="8" rows="11" placeholder="Enter your title for describe this movie." class="border rounded-md border-red-300 p-2 mt-3 w-full" v-model="title"></textarea>
                         <div class="flex mt-3 py-1 px-5">
-                            <button class="border rounded-full py-2 px-12 font-bold text-white " style="font-size: large; margin-left: auto; margin-right: 10px; background-color: #FF5757;" @click="clearMovie">CLEAR</button>
-                            <button class="border rounded-full py-2 px-12 font-bold text-white" style="font-size: large; margin-left: 10px; margin-right: 0px; background-color: #44C1F0;">ADD</button>
+                            <button class="border rounded-full py-2 px-12 font-bold text-white bg-pinklight " style="font-size: large; margin-left: auto; margin-right: 10px;" @click="clearMovie">CLEAR</button>
+                            <button class="border rounded-full py-2 px-12 font-bold text-white bg-bluelight" style="font-size: large; margin-left: 10px; margin-right: 0px;">ADD</button>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 type:"",
                 date:"",
                 title:"",
-                photo:"catpolygon.jpg",
+                photo:"movieinsert.png",
                 img:"",
                 invalidName: false,
                 invalidHour: false,
